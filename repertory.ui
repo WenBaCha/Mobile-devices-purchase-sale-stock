@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Repertory</class>
+ <widget class="QWidget" name="Repertory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>705</width>
+    <height>412</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="repertory_listWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>551</width>
+     <height>411</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="repertory_back">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>280</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返回上一页面</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sum">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>10</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="repertory_add">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>130</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>入库</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="find_input">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>40</y>
+     <width>113</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>请输入设备型号</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="repertory_find">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>80</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查找货物</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="repertory_refresh">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>180</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="repretory_delete">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>230</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除设备</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sum_2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>60</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

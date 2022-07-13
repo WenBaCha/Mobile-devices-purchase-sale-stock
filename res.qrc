@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/colorful.JPG</file>
+        <file>res/easy.JPG</file>
+        <file>res/leaf.JPG</file>
+        <file>res/purpleblue.JPG</file>
+    </qresource>
+</RCC>
